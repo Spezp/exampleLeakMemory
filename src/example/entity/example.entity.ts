@@ -1,6 +1,10 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import * as mongoose from 'mongoose';
 
+export enum MODEL {
+  EXAMPLE = 'example',
+}
+
 @Schema({ timestamps: true })
 export class Example extends mongoose.Document {
   @Prop()

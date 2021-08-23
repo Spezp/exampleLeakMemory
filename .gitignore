@@ -2,6 +2,11 @@
 /dist
 /node_modules
 
+# Vim
+*.swp
+*.swf
+*.swo
+
 # Logs
 logs
 *.log
